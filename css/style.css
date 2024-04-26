@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* Logo */
+#logo-img{
+    width: 1em;
+    border-radius: 4em;
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 1%;
+}
+/* Menú */
+header{
+    text-align: right;
+    background-color: #E5E5E5;
+    -webkit-box-shadow: 0px 2px 13px 2px rgba(0,0,0,0.64); 
+    box-shadow: 0px 2px 13px 2px rgba(0,0,0,0.64);
+}
+
+ul li 
+{
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    top: 0px;
+    font-family: sans-serif;
+
+}
+.fa-solid
+{
+    color: black;
+}
+a{
+    color: black;
+}
+header div ul li a {
+    text-decoration: none;
+    display: inline-block;
+}
+/* Fin del menú */
+
+/* Seccion info de nosotros */
+.box-shadow{
+    -webkit-box-shadow: 0px 2px 13px 2px rgba(0,0,0,0.64); 
+    box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.64);
+    /*manipulacion del texto de caja y sus imagenes*/
+    font-family: sans-serif;
+    text-align: right;
+    background-color: #bad4aa;
+    font-weight: 100;
+    
+
+}
+
+.box-shadow img{
+    width: 20em;
+    height: 20em;
+    left: 0;
+    top: 0;
+    
+}
+
+.box-shadow p {
+    font-size: 1em;
+    margin: 0%;
+    padding: 0%;
+    right: 0;
+    text-align: center;
+
+}
+/* Titulo cabañas lago encantado */
+h1{
+    margin-top: 1%;
+    background-color: rgb(160, 156, 151);
+    color: #fdf0d5;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(10, 10, 10);
+    border-radius: 15px 0px;
+    font-family: sans-serif;
+}
+/* Fin del titulo */
+/* Seccion quienes somos */
+section{
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: relative;
+    margin: 1em;
+    
+}
+section article h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  
+}
+section article img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 2em;
+    left: 0.1em;
+    margin: 2em;
+    border: 1px solid rgb(252, 56, 148);
+    border-radius: 8px;
+}
+p{
+    z-index: 9999;
+}
+/* Fin de la seccion */
+
+
+
+/* Media query para pantallas menores a 450px */
+@media (max-width: 450px) {
+    ul li {
+        display: block; /* Cambia la visualización de los elementos de lista a bloque */
+        text-align: center; /* Centra los elementos de la lista */
+
+    }
+
+    .box-shadow img {
+        width: calc(0.55em *100%); /* Haz que la imagen ocupe todo el ancho disponible */
+    }
+
+    .box-shadow p {
+       /* Reduce el tamaño de la fuente del párrafo */
+       display: none;
+    }
+    h1{
+        font-size:  .50cem;
+    }
+
+    main {
+        display:grid;
+        justify-content: center;
+        margin: 1em;
+        padding: 1em;
+        border: 1em;
+        width: 95%;
+    }
+    main > * {
+        margin: 1%; /* Agrega espacio entre los elementos */
+    }
+
+
+/* carrusel principal */
+}
+.slider-box-principal{
+    width: 1350px;
+    height: 720 px;
+    margin: 0px auto 0;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    
+}
+.slider-box-principal ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+.slider-box-principal li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+.texto{
+    position: absolute;
+    text-align: center;
+    padding: 0 250px;
+    top: 40%;
+    color: #000814;
+    font-family: sans-serif;
+    font-size: 50px;
+
+}
+
+.slider-box-principal image{
+    width: 100%;
+
+}
+@keyframes slide {
+    0% { margin-left: 0; }
+    20% { margin-left: 0; }
+
+    25% { margin-left: -100%; }
+    45% { margin-left: -100%; }
+
+    50% { margin-left: -200%; }
+    70% { margin-left: -200%; }
+
+    75% { margin-left: -300%; }
+    100% { margin-left: -300%; }
+
+}
+    /* Media para celulares */
+
+@media(max-width:991px) {
+    body {
+        padding: 30px;
+    }
+    .slider-box-principal {
+        width: 100%;
+    }
+    .texto{
+        top: 50px;
+        padding: 0 25px;
+    }
+    .texto h2 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    .texto p{
+        font-size: 15px;
+    }
+}
+/* Fin del carrusel */
+
+
+/* Cabañas */
+#titulocabañas
+{
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 15px 0px;
+    color: #222;
+    background-color: #fed136;
+    font-weight: bold;
+    font-size: 2em;
+    
+}
+.cabañasdescripcion
+{
+    margin: 1em;
+    width: 70%;
+
+}
+
+
+/* Reservas */
+#tituloreservas
+{
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 15px 0px;
+    color: #222;
+    background-color: #fed136;
+    font-weight: bold;
+    font-size: 2em;
+}
+/* Ubicacion */
+#tituloubi
+{
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 15px 0px;
+    color: #222;
+    background-color: #fed136;
+    font-weight: bold;
+    font-size: 2em;
+}
+/* Contacto */
+#titulocontacto
+{
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 15px 0px;
+    color: #222;
+    background-color: #fed136;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+/* Footer */
+.footer
+{text-align: center;
+background-color: #E5E5E5 ;
+}
+
+#redes {
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+    text-align: center;
+    left: 20%;
+    color: black;
+    box-shadow: none;
+    background-color: none;
+
+}
+#logo-footer{
+    display: flex;
+    position: relative;
+    top: 0px;
+    left: 1%;
+
+}
+/* Fin del footer */
