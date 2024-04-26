@@ -1,1 +1,152 @@
-# Caba-as-LE
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c615c332a9.js" crossorigin="anonymous"></script>
+    <title>Cabañas Lago Encantado</title>
+    <link rel="stylesheet" href="./css/style.css">
+     
+</head>
+
+<body id="inicio"> 
+    <header>
+    <!-- Logo -->
+    <div id="logo-img">
+        <img src="./css/img/logo/l (1).jpg" alt="logo-img" width="50" height="50">
+    </div>
+    <!-- Menú -->
+    <div>
+        <ul>
+            <li><a href="#inicio"><span> <i class="fa-solid fa-house"></i></span>Inicio</a></li>
+            <li><a href="#cabañas"> <span><i class="fa-solid fa-feather"></i> </span>Cabañas</a></li>
+            <li><a href="#reservas"><span></span><i class="fa-solid fa-bookmark"></i>   </span>   Reservas </a></li>
+            <li><a href="#ubicacion"><span><i class="fa-solid fa-map-location-dot"></i>  </span>Ubicacion</a></li>
+            <li><a href="#contacto"><span><i class="fa-solid fa-book-open-reader"></i>   </span>Contacto</a></li>
+        </ul>
+    </div>
+    
+     <!-- Carrousel Inicio -->
+    
+     <div class="slider-box-principal" id="carrousel">
+        <ul>
+            <li>
+                <img src="./css/img/fondos/fondo1.JPG" alt="Fondoprincipal1" height="720" width="1350">
+                <div class="texto">
+                    <h2>Naturaleza y comodidad</h2>                
+                </div>
+            </li>
+            <li>
+                <img src="./css/img/fondos/fondo2.JPG" alt="Fondoprincipal2" height="720" width="1350">
+                <div class="texto">
+                    <h2>Descubre la serenidad</h2>
+                </div>
+            </li>
+            <li>
+                <img src="./css/img/fondos/fondo3.jpg" alt="Fondoprincipal3" height="720" width="1350">
+                <div class="texto">
+                    <h2>Descansa en nuestras cabañas</h2>
+                </div>
+            </li>
+            <li>
+                <img src="./css/img/fondos/fondo4.jpg" alt="Fotoprincipal4" height="720" width="1350">
+                <div class="texto">
+                    <h2>Reserva tu escapada hoy</h2>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- Fin del carrousel -->
+    </header>
+   
+
+    <main class="">
+      <!-- Info de nosotros -->
+        <h1>Cabañas Lago Encantado</h1>
+        <div>
+            <section class="box-shadow">
+                <img src="/css/img/fondos/seccion pag.jpg" alt="exteriorcabaña">
+                <article>
+                    
+                    <div>
+                    <p> Bienvenido a una experiencia única en nuestras cabañas. 
+                        Sumérgete en un mundo de serenidad y conexión con la naturaleza, donde cada momento se convierte en un recuerdo inolvidable.
+                        Nuestras cabañas están cuidadosamente diseñadas para brindarte el máximo confort y comodidad, mientras te envuelven en el encanto rústico y la calidez del entorno natural. 
+                        Desde el momento en que llegas, te recibirán vistas impresionantes, aire fresco y la tranquilidad que solo la naturaleza puede ofrecer.
+                    </p></div>
+
+
+                    
+                </article>
+            </section>
+            <section class="box-shadow">
+                <img src="/css/img/fondos/lavandas3.JPG" alt="Lugares">
+                
+                <article>
+                    <h2>¿Quienes somos?</h2>
+                    <p> Hace años, un grupo de amigos apasionados por la naturaleza y la vida al aire libre se reunió con un sueño en común: crear un refugio donde las personas pudieran escapar del bullicio de la ciudad y reconectar con la belleza y tranquilidad de la naturaleza. 
+                        Con ese objetivo en mente, nos lanzamos a la aventura de construir nuestras propias cabañas, cada una diseñada para ofrecer la máxima comodidad y confort sin sacrificar la autenticidad y el encanto rústico. 
+                        Desde entonces, hemos recibido a personas de todas partes del mundo, cada una buscando su propia experiencia única en la naturaleza.
+                    </p>
+                </article>
+            </section>
+        </div>
+        <div>
+            <div id="titulocabañas">Cabañas</div>
+            <section class="cabañasdescripcion" >
+            <div class="cabaña1">
+                    <h3 >Cabaña Magnolia</h3>
+                    <p>Ubicada en Villa Pehuenia, la Cabaña Magnolia ofrece un refugio acogedor con vistas panorámicas al lago. Su diseño alpino y amplio living comedor con ventanas generosas te permitirán disfrutar de la naturaleza en un entorno relajado. Equipada con cocina completa y baño privado, es ideal para una estadía inolvidable.</p>
+            
+                </div>
+            <div class="cabaña2">
+                
+                    <h4 >Cabaña Orquidea</h4>
+                    <p>Enclavada en un entorno natural incomparable, la Cabaña Orquídea te invita a descubrir el paraíso en Villa Pehuenia. A solo 500 metros del centro comercial y rodeada de olivos y pérgolas de viñedos, esta cabaña de estilo alpino es perfecta para el descanso. Cocina completamente equipada, vistas impresionantes y conexión wifi gratis.</p>
+                </div>
+            </section>
+        </div>
+        <div id="reservas">
+            <h3 id="tituloreservas">Reservas</h3>
+            <p>¿Tienes alguna pregunta o deseas reservar una cabaña? ¡Estamos aquí para ayudarte! Completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible.</p>
+            <a href="#">Formulario de Contacto</a>
+            <p>¡Esperamos recibir tu mensaje y ayudarte a planificar una estadia inolvidable en nuestras cabañas! 🌲🏡</p>
+        </div>
+        <div id="ubicacion">
+            <h4 id="tituloubi">Ubicacion</h4>
+            <p>Lago Encantado en Villa Pehuenia, Neuquén, Argentina: Este mágico lago se encuentra en la provincia de Neuquén, a una altitud de 1,163 metros sobre el nivel del mar. Sus aguas cristalinas y su entorno rodeado de bosques de araucarias crean un escenario único. Además, el Lago Encantado está cerca de otros lagos cordilleranos como Aluminé, Ñorquinco, Pilhue y Polcahue. ¡Una joya natural para explorar! 🌲🏞️</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6772.566083402923!2d-71.1908501651389!3d-38.89573555909195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1713180389182!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div id="contacto">
+            <h5 id="titulocontacto">Contacto</h5>
+            <p> Los Radales 1300 – Villa Pehuenia – Neuquén – Argentina – <br>
+                mail: cabañasleinfo@gmail.com <br>
+                +54 9 9999 999999
+            </p>
+        </div>
+    
+    
+    
+    
+    
+    </main>
+</body>
+<footer>
+<div class="footer">
+<h1 id="redes">Nuestras redes</h1>
+<ul id="redes-lista">
+    <li>Intagram
+        <p>@Cabañaslagoencantado</p>
+    </li>
+    <li>Facebook
+        <p>Lago Encantado Cabañas</p>
+    </li>
+    <li>Correo electronico
+        <p>cabañasleinfo@gmail.com</p>
+    </li>
+</ul>
+<img src="./css/img/logo/l (1).jpg" alt="logo-img" id="logo-footer" width="50" height="50"> 
+</div>
+
+</footer>
+</html>
